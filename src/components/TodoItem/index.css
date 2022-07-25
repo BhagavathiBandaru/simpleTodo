@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.each-todo-item-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+
+.todoTitleText {
+  font-size: 15px;
+  color: forestgreen;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+
+.button {
+  border: 2px solid;
+  font-size: 15px;
+  background-color: #ff0b37;
+  color: #ffffff;
+  align-self: center;
+  padding: 10px;
+  margin-left: 18px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  button {
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 30px;
+  }
+}
